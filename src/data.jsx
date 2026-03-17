@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import quiz from "./assets/quiz.png";
 import mixMaster from "./assets/cocktail.png";
 import content from "./assets/contentfull.png";
+import comfy from "./assets/comfi-store.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -33,6 +34,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: comfy,
+    url: "https://comfy-store-project.netlify.app/",
+    github: "https://github.com/Alina0303/comfy-store",
+    title: "Comfy store",
+    text: "A fully functional e-commerce web application built with React, featuring product filtering, shopping cart management, and a complete checkout flow.",
+  },
   {
     id: nanoid(),
     img: mixMaster,
