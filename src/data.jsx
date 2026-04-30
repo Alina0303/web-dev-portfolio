@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 import quiz from "./assets/quiz.png";
 import mixMaster from "./assets/cocktail.png";
 import content from "./assets/contentfull.png";
@@ -14,6 +15,12 @@ export const links = [
 ];
 
 export const skills = [
+  {
+    id: nanoid(),
+    title: "Next.js",
+    icon: <SiNextdotjs className="h-16 w-16 text-fuchsia-500" />,
+    text: "Proficient in building performant, SEO-friendly full-stack applications using Next.js.",
+  },
   {
     id: nanoid(),
     title: "HTML&CSS",
