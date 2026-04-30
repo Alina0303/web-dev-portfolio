@@ -4,6 +4,7 @@ import quiz from "./assets/quiz.png";
 import mixMaster from "./assets/cocktail.png";
 import content from "./assets/contentfull.png";
 import comfy from "./assets/comfi-store.png";
+import nextStore from "./assets/next-store.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -34,6 +35,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: nextStore,
+    url: "https://next-store-project-blond.vercel.app/",
+    github: "https://github.com/Alina0303/next-store-project",
+    title: "NextStore - Modern E-Commerce Platform",
+    text: "A full-stack e-commerce application built with Next.js 14, featuring a robust product catalog, user authentication, and a professional admin dashboard.",
+  },
   {
     id: nanoid(),
     img: comfy,
