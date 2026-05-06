@@ -6,6 +6,7 @@ import mixMaster from "./assets/cocktail.png";
 import content from "./assets/contentfull.png";
 import comfy from "./assets/comfi-store.png";
 import nextStore from "./assets/next-store.png";
+import githubsearch from "./assets/githubsearch.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -57,6 +58,14 @@ export const projects = [
     github: "https://github.com/Alina0303/comfy-store",
     title: "Comfy store",
     text: "A fully functional e-commerce web application built with React, featuring product filtering, shopping cart management, and a complete checkout flow.",
+  },
+  {
+    id: nanoid(),
+    img: githubsearch,
+    url: "https://github-users-charts.netlify.app/",
+    github: "https://github.com/Alina0303/github-users-charts",
+    title: "Github users search",
+    text: "A modern GitHub user search app built with React, TypeScript, Vite, Tailwind CSS, Apollo Client, and GraphQL, featuring profile summaries and repository analytics charts.",
   },
   {
     id: nanoid(),
