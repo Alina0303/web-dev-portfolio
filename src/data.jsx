@@ -7,6 +7,7 @@ import content from "./assets/contentfull.png";
 import comfy from "./assets/comfi-store.png";
 import nextStore from "./assets/next-store.png";
 import githubsearch from "./assets/githubsearch.png";
+import jobJourney from "./assets/JobJourney.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -43,6 +44,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: jobJourney,
+    url: "https://jobjourney-vpbj.onrender.com",
+    github: "https://github.com/Alina0303/JobJourney",
+    title: "JobJourney",
+    text: "A job-tracking dashboard built with Next.js, React, Prisma, Clerk, and Tailwind CSS.",
+  },
   {
     id: nanoid(),
     img: nextStore,
