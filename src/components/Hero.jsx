@@ -14,10 +14,10 @@ const Hero = () => {
           </p>
           <div className="flex gap-x-4 mt-4 ">
             <a href="https://github.com/Alina0303">
-              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" title='link to my Github profile' />
             </a>
             <a href="https://www.linkedin.com/in/alina-ovsianykova-b0a953319">
-              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" title='link to my Linkedin profile' />
             </a>
           </div>
         </article>
