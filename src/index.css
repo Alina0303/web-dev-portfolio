@@ -7,6 +7,6 @@
 @layer base{
   button:focus-visible{
     outline:none;
-    @apply ring-2 ring-fuchsia-100 ring-offset-2 rounded-md
+    @apply ring-2 ring-fuchsia-100 ring-offset-2 rounded-md;
   }}
   
