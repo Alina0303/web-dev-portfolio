@@ -20,25 +20,25 @@ export const skills = [
   {
     id: nanoid(),
     title: "Next.js",
-    icon: <SiNextdotjs className="h-16 w-16 text-fuchsia-500" />,
+    icon: <SiNextdotjs className="h-16 w-16 text-fuchsia-500" title=''/>,
     text: "Proficient in building performant, SEO-friendly full-stack applications using Next.js.",
   },
   {
     id: nanoid(),
     title: "HTML&CSS",
-    icon: <FaHtml5 className="h-16 w-16 text-fuchsia-500" />,
+    icon: <FaHtml5 className="h-16 w-16 text-fuchsia-500" title=''/>,
     text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
   },
   {
     id: nanoid(),
     title: "Javascript",
-    icon: <FaJs className="h-16 w-16 text-fuchsia-500" />,
+    icon: <FaJs className="h-16 w-16 text-fuchsia-500" title=''/>,
     text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
   },
   {
     id: nanoid(),
     title: "React",
-    icon: <FaReact className="h-16 w-16 text-fuchsia-500" />,
+    icon: <FaReact className="h-16 w-16 text-fuchsia-500" title=''/>,
     text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
   },
 ];
