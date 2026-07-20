@@ -6,13 +6,13 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <>
+    <main>
       <NavBar />
       <Hero />
       <Skills />
       <About />
       <Projects />
-    </>
+    </main>
   );
 }
 
