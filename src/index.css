@@ -3,7 +3,7 @@
     @apply mx-auto max-w-7xl px-8;
   }
 
-  button:focus-visible{
+  a:focus-visible{
     outline:none;
     @apply ring-2 ring-fuchsia-100 ring-offset-2 rounded-md;
   }
